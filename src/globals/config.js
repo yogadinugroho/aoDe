@@ -6,3 +6,5 @@ const CONFIG = {
     DATABASE_VERSION: 1,
     OBJECT_STORE_NAME: 'aoDe',
 }
+
+export default CONFIG;
