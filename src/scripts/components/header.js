@@ -9,7 +9,7 @@ class CustomHeader extends HTMLElement {
 
       .app-bar {
         padding: 8px 16px;
-        background-color: white;
+        background-color: #002366;
         display: grid;
         grid-template-columns: auto 1fr auto;
         gap: 10px;
@@ -29,6 +29,7 @@ class CustomHeader extends HTMLElement {
         min-width: 44px;
         min-height: 44px;
         background-color: transparent;
+        color: white;
         border: none;
         font-size: 18px;
         padding: 8px;
@@ -41,10 +42,12 @@ class CustomHeader extends HTMLElement {
       }
 
       .app-bar .app-bar__brand h1 {
-        color: #db0000;
-        text-transform: uppercase;
+        color: #FA8072;
         font-size: 22px;
         user-select: none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
       }
 
       .app-bar .app-bar__navigation {
@@ -76,9 +79,6 @@ class CustomHeader extends HTMLElement {
     </style>
 
     <header class="app-bar">
-        <div class="app-bar__menu">
-                <button id="hamburgerButton">☰</button>
-        </div>
         <div class="app-bar__brand">
             <h1>aoDe</h1>
         </div>
@@ -90,6 +90,9 @@ class CustomHeader extends HTMLElement {
                 <li><a href="/">Tentang Kami</a></li>
             </ul>
         </nav>
+        <div class="app-bar__menu">
+                <button id="hamburgerButton">☰</button>
+        </div>
     </header>`;
   }
 }
