@@ -1,0 +1,39 @@
+*,
+*:after,
+*:before {
+  background-color: #002366;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  width: 100%;
+  background-color: #002366;
+  box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.5);
+}
+.navbar a {
+  color: #fa8072;
+}
+.navigation-wrap .nav-item {
+  padding: 0 0.625rem;
+  transition: all 0.3s linear;
+}
+.navbar-toggler i {
+  color: #fa8072;
+}
+.navbar-toggler:focus {
+  outline: unset;
+  border: unset;
+  box-shadow: none;
+}
+.skip {
+  width: 100%;
+  min-height: 50px;
+}
+.hero {
+  width: 100%;
+  min-height: 350px;
+  background-color: grey;
+  padding-top: 50px;
+}
