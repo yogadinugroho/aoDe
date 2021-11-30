@@ -2,8 +2,7 @@
 const Beranda = {
   async render() {
     return `
-        <div class="skip"></div>
-        <div class="hero"></div>
+    
         `;
   },
 };
