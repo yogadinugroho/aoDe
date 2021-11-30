@@ -1,4 +1,6 @@
 /* eslint-disable linebreak-style */
+import doaSource from '../../data/doa-source';
+
 const Beranda = {
   async render() {
     return `
@@ -19,6 +21,11 @@ const Beranda = {
         <button type="button" class="btn btn-outline-primary">Cari</button>
       </div>
         `;
+  },
+
+  async afterRender() {
+    const doa = await doaSource.listDoa();
+    console.log(doa);
   },
 };
 export default Beranda;
