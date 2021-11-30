@@ -2,11 +2,13 @@
 *:after,
 *:before {
   background-color: #002366;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+/* navigation bar */
+
 .navbar {
   width: 100%;
   background-color: #002366;
@@ -27,13 +29,58 @@
   border: unset;
   box-shadow: none;
 }
-.skip {
-  width: 100%;
-  min-height: 50px;
+
+/* end of navigation bar */
+
+/* 
+  skip-content
+*/
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #5eff00;
+  color: white;
+  padding: 8px;
+  z-index: 100;
 }
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* end of skip-content */
+
+/* hero jumbotron */
+
 .hero {
+  display: flex;
+  align-items: center;
+  min-height: 380px;
+  text-align: center;
+  background-image: url("/images/heros/dummyHero.jpg");
+  background-color: green;
   width: 100%;
-  min-height: 350px;
-  background-color: grey;
-  padding-top: 50px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+.hero_inner {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+/* end of hero jumbotron */
+
+/* main */
+
+
+main {
+  padding: 32px;
+  flex: 1;
+  background-color: #002366;
+}
+
+/* end of main */
