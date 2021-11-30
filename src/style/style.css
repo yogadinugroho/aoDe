@@ -40,7 +40,7 @@ body {
   padding-top: 50px;
 }
 h2 {
-  padding-top: 20 px;
+  padding-top: 20px;
   color: #fa8072;
   text-align: center;
 }
@@ -52,18 +52,17 @@ h2 {
   gap: 10px;
 }
 .doa-item {
-  overflow: hidden;
   position: relative;
+  overflow: hidden;
   max-width: 300px;
-  height: 250px;
+  height: 300px;
   border: none;
-  background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   transition: 0.4s ease-in-out;
 }
 .doa-item:hover {
-  height: 325px;
+  height: 350px;
 }
 .doa-item .img-item {
   position: relative;
@@ -76,14 +75,23 @@ h2 {
 .doa-item .img-item img {
   max-width: 100%;
   height: 100%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 10px;
 }
 .doa-item .title-item {
-  bottom: 0;
+  top: -100px;
+  left: 10%;
+  border-radius: 10px;
+  height: 100px;
+  background-color: #fff;
+  position: relative;
+  width: 80%;
   text-align: center;
   transition: 0.4 ease-in-out;
 }
+.doa-item:hover .title-item {
+  top: -50px;
+}
 .doa-item .title-item h3 {
-  position: relative;
+  padding-top: 55px;
+  color: #002366;
 }
