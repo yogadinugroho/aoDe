@@ -9,6 +9,7 @@ class App {
     const page = routes[url];
     const content = document.querySelector('#maincontent');
     content.innerHTML = await page.render();
+    await page.afterRender();
   }
 }
 export default App;

@@ -16,7 +16,7 @@ class DoaSource {
 
   static async detailDoa(id) {
     try {
-      const response = await fetch(API_ENDPOINT.detailDoa(id));
+      const response = await fetch(API_ENDPOINT.DETAIL(id));
       const responseJson = await response.json();
       return responseJson.data;
     } catch (error) {
