@@ -114,44 +114,58 @@ h2 {
 .doa-item {
   position: relative;
   overflow: hidden;
-  max-width: 300px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
   border: none;
   border-radius: 10px;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-  transition: 0.4s ease-in-out;
-}
-.doa-item:hover {
-  height: 350px;
+  transition: 0.7s ease-in-out;
 }
 .doa-item .img-item {
   position: relative;
-  max-height: 300px;
-  max-width: 300px;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 70%;
   z-index: 1;
 }
 
 .doa-item .img-item img {
-  max-width: 100%;
-  height: 100%;
+  width: 100%;
+  max-height: 100%;
   border-radius: 10px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
-.doa-item .title-item {
-  top: -100px;
+.doa-item .content-item {
+  overflow: auto;
+  top: -50%;
   left: 10%;
   border-radius: 10px;
-  height: 100px;
+  height: 40%;
   background-color: #fff;
   position: relative;
   width: 80%;
   text-align: center;
-  transition: 0.4 ease-in-out;
+  transition: 0.7 ease-in-out;
 }
-.doa-item:hover .title-item {
-  top: -50px;
+.doa-item:hover .content-item {
+  top: -20%;
 }
-.doa-item .title-item h3 {
-  padding-top: 55px;
+.doa-item .title-item {
+  padding-left: 5px;
+  padding-right: 5px;
+  position: relative;
+  top: 60%;
   color: #002366;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #bf1722;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
 }

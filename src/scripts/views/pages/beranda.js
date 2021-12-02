@@ -1,33 +1,22 @@
 /* eslint-disable linebreak-style */
-
 import DoaSource from '../../data/doa-source';
-import createDoaItemTemplate from '../templates/template-creator';
+import { createDoaItemTemplate } from '../templates/template-creator';
 
+/* eslint-disable linebreak-style */
 const Beranda = {
   async render() {
     return `
-        <div class="hero">
-          <div class="hero_inner"></div>
-        </div>
-
-        <div class="content">
-          <h2 class="content__heading" align="center">Daftar Doa-Doa</h2>
-          <div id="restaurants" class="restaurants"></div>
-        </div>
+        <div class="skip"></div>
+        <div class="hero"></div>
+        <h2 tabindex="0">Daftar Doa-Doa</h2>
+        <div class="doa-list"></div>
         `;
   },
   async afterRender() {
-    // skiplink element
-    const skipLinkElem = document.querySelector('.skip-link');
-    skipLinkElem.addEventListener('click', (e) => {
-      e.preventDefault();
-      document.querySelector('#mainContent').focus();
-    });
-
-    const restaurants = await DoaSource.allDoa();
-    const restaurantContainer = document.querySelector('#restaurants');
-    restaurants.forEach((restaurant) => {
-      restaurantContainer.innerHTML += createDoaItemTemplate(restaurant);
+    const doa2 = await DoaSource.allDoa();
+    const doaContainer = document.querySelector('.doa-list');
+    doa2.forEach((doa) => {
+      doaContainer.innerHTML += createDoaItemTemplate(doa);
     });
   },
 };

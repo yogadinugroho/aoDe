@@ -1,6 +1,7 @@
 /* eslint-disable linebreak-style */
 // entry point
 import '../style/style.css';
+import '../style/responsive-style.css';
 import 'regenerator-runtime';
 import App from './views/app';
 import DoaSource from './data/doa-source';

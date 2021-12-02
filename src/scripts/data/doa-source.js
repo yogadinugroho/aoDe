@@ -1,5 +1,4 @@
-/* eslint-disable import/no-named-as-default */
-/* eslint-disable import/no-named-as-default-member */
+/* eslint-disable camelcase */
 /* eslint-disable linebreak-style */
 /* eslint-disable no-alert */
 /* eslint-disable consistent-return */
@@ -18,9 +17,9 @@ class DoaSource {
 
   static async detailDoa(id) {
     try {
-      const response = await fetch(API_ENDPOINT.detailDoa(id));
+      const response = await fetch(API_ENDPOINT.DETAIL(id));
       const responseJson = await response.json();
-      return responseJson.data;
+      return responseJson.data[0];
     } catch (error) {
       alert(error);
     }
