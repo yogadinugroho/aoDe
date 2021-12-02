@@ -59,7 +59,7 @@ body {
   background-color: #5eff00;
   color: white;
   padding: 8px;
-  z-index: 100;
+  z-index: 10;
 }
 
 .skip-link:focus {
@@ -94,7 +94,7 @@ body {
 
 
 main {
-  padding: 32px;
+  padding: 32px 0px;
   flex: 1;
   background-color: #002366;
 }
