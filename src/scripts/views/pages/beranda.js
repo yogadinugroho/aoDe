@@ -8,7 +8,7 @@ const Beranda = {
     return `
         <div class="skip"></div>
         <div class="hero"></div>
-        <h2 tabindex="0">Explore Restaurant</h2>
+        <h2 tabindex="0">Daftar Doa-Doa</h2>
         <div class="doa-list"></div>
         `;
   },

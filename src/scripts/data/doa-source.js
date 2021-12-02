@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 /* eslint-disable linebreak-style */
 /* eslint-disable no-alert */
 /* eslint-disable consistent-return */
@@ -18,7 +19,7 @@ class DoaSource {
     try {
       const response = await fetch(API_ENDPOINT.DETAIL(id));
       const responseJson = await response.json();
-      return responseJson.data;
+      return responseJson.data[0];
     } catch (error) {
       alert(error);
     }
