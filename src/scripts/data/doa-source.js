@@ -1,17 +1,29 @@
+/* eslint-disable import/no-named-as-default */
+/* eslint-disable import/no-named-as-default-member */
+/* eslint-disable linebreak-style */
+/* eslint-disable no-alert */
+/* eslint-disable consistent-return */
 import API_ENDPOINT from '../globals/api-endpoint';
 
-class doaSource {
-  static async listDoa() {
-    const response = await fetch(API_ENDPOINT.LIST_DOA);
-    const responseJson = await response.json();
-    return responseJson.data;
+class DoaSource {
+  static async allDoa() {
+    try {
+      const response = await fetch(API_ENDPOINT.LIST);
+      const responseJson = await response.json();
+      return responseJson.data;
+    } catch (error) {
+      alert(error);
+    }
   }
 
   static async detailDoa(id) {
-    const response = await fetch(API_ENDPOINT.DETAIL_DOA(id));
-    const responseJson = await response.json();
-    return responseJson.data;
+    try {
+      const response = await fetch(API_ENDPOINT.detailDoa(id));
+      const responseJson = await response.json();
+      return responseJson.data;
+    } catch (error) {
+      alert(error);
+    }
   }
 }
-
-export default doaSource;
+export default DoaSource;
