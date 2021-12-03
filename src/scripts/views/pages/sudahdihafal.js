@@ -1,22 +1,20 @@
 /* eslint-disable linebreak-style */
-import DoaSource from '../../data/doa-source';
+import { sudahdihafalIdb } from '../../data/ingindihafal-doa';
 import { createDoaItemTemplate } from '../templates/template-creator';
 
-/* eslint-disable linebreak-style */
-const Beranda = {
+const SudahdiHafal = {
   async render() {
     return `
-        <div class="top-banner"><div class="hero"></div></div>
-        <h2 tabindex="0">Kumpulan Doa-Doa</h2>
+        <h2 tabindex="0">Doa-doa yang Sudah dihafal</h2>
         <div class="doa-list"></div>
-        `;
+    `;
   },
   async afterRender() {
-    const doa2 = await DoaSource.allDoa();
+    const doa2 = await sudahdihafalIdb.getAllSudahdihafal();
     const doaContainer = document.querySelector('.doa-list');
     doa2.forEach((doa) => {
       doaContainer.innerHTML += createDoaItemTemplate(doa);
     });
   },
 };
-export default Beranda;
+export default SudahdiHafal;

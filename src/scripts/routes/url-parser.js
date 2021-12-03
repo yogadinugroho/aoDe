@@ -23,7 +23,7 @@ const UrlParser = {
 
   _urlCombiner(splitedUrl) {
     return (splitedUrl.resource ? `/${splitedUrl.resource}` : '/')
-        + (splitedUrl.id ? '/:id' : '')
+        + (splitedUrl.id ? '/{id_doa}' : '')
         + (splitedUrl.verb ? `/${splitedUrl.verb}` : '');
   },
 };

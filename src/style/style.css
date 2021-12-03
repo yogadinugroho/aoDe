@@ -33,6 +33,9 @@ body {
   width: 100%;
   min-height: 50px;
 }
+.top-banner {
+  padding-top: 50px;
+}
 .hero {
   width: 100%;
   min-height: 350px;
@@ -94,4 +97,14 @@ h2 {
   position: relative;
   top: 60%;
   color: #002366;
+}
+.card-detail {
+  background-color: #99ddcc;
+  width: 80%;
+}
+.card .card-body h5 {
+  font-weight: bold;
+}
+.container-button {
+  padding: 20px;
 }
