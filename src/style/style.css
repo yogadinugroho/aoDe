@@ -6,6 +6,9 @@
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+}
 body {
   background-color: #002366;
 }
@@ -96,15 +99,20 @@ h2 {
   padding-right: 5px;
   position: relative;
   top: 60%;
+}
+.doa-item .title-item a {
   color: #002366;
 }
 .card-detail {
   background-color: #99ddcc;
   width: 80%;
 }
-.card .card-body h5 {
+.card-title {
   font-weight: bold;
 }
-.container-button {
-  padding: 20px;
+.card-text {
+  font-size: 27px;
+}
+.btn-card {
+  font-size: 55px;
 }
