@@ -14,7 +14,7 @@ const createDoaItemTemplate = (doa) => `
     </div>
 `;
 const createDetailDoaItemTemplate = (doa) => `
-    <h2 align="center">${doa.nama}</h2>
+    <h2 align="center" id="title-page">${doa.nama}</h2>
     <div class="card mx-auto card-detail">
         <img src="https://png.pngtree.com/element_our/20190529/ourlarge/pngtree-cartoon-sleeping-day-character-illustration-image_1216735.jpg" class="card-img-top" alt="...">
         <div class="card-body">

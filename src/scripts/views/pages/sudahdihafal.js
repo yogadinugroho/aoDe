@@ -5,7 +5,11 @@ import { createDoaItemTemplate } from '../templates/template-creator';
 const SudahdiHafal = {
   async render() {
     return `
-        <h2 tabindex="0">Doa-doa yang Sudah dihafal</h2>
+        <h2 tabindex="0" id="title-page">Sudah dihafal</h2>
+        <form id='searchForm' class="d-flex search-bar">
+          <input id='inputDoa' type="search" placeholder="Masukan Doa" aria-label="Cari Doa">
+          <button id='buttonSearch' class="btn btn-outline-success" type="button">Cari</button>
+        </form>
         <div class="doa-list"></div>
     `;
   },

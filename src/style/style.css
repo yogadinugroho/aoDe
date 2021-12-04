@@ -13,6 +13,8 @@ body {
   background-color: #002366;
 }
 .navbar {
+  position: fixed;
+  left: 0;
   width: 100%;
   background-color: #002366;
   box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.5);
@@ -36,8 +38,11 @@ body {
   width: 100%;
   min-height: 50px;
 }
+#title-page {
+  padding-top: 90px;
+}
 .top-banner {
-  padding-top: 50px;
+  padding-top: 90px;
 }
 .hero {
   width: 100%;
@@ -49,6 +54,32 @@ h2 {
   padding-top: 20px;
   color: #fa8072;
   text-align: center;
+}
+#searchForm {
+  justify-content: center;
+  padding-top: 20px;
+}
+#inputDoa {
+  width: 50%;
+  height: 50px;
+}
+#buttonSearch {
+  font-size: 20px;
+  width: 20%;
+  height: 50px;
+  background-color: #fa8072;
+  border: 1px solid #fa8072;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px -1px rgb(0, 0, 0, 19%);
+  -webkit-transition: all 0.4s ease-out 0s;
+  -o-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+}
+#buttonSearch:hover {
+  background-color: transparent;
+  color: #fa8072;
 }
 .doa-list {
   position: relative;
@@ -119,4 +150,8 @@ h2 {
 button {
   border: none;
   background-color: transparent;
+}
+.btn-ingin-actived,
+.btn-sudah-actived {
+  color: #fa8072;
 }
