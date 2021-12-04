@@ -19,7 +19,7 @@ const createDetailDoaItemTemplate = (doa) => `
         <img src="https://png.pngtree.com/element_our/20190529/ourlarge/pngtree-cartoon-sleeping-day-character-illustration-image_1216735.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h3 class="card-title">Lafal :</h3>
-            <p class="card-text" align="justify">${doa.lafal}</p>
+            <p class="card-text" id="txt-lafal" align="justify">${doa.lafal}</p>
         </div>
         <div class="card-body">
             <h3 class="card-title">Transliterasi :</h3>
@@ -35,9 +35,9 @@ const createDetailDoaItemTemplate = (doa) => `
         </div>
         <div class="container-button">
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <span class="material-icons-outlined btn-card">volume_up</span>
-                <span class="material-icons-round btn-card">auto_stories</span>
-                <span class="material-icons-round btn-card">psychology</span>
+                <button class="btn-voice" ><span class="material-icons-outlined btn-card">volume_up</span></button>
+                <button class="btn-ingin" ><span class="material-icons-round btn-card">auto_stories</span></button>
+                <button class="btn-sudah" ><span class="material-icons-round btn-card">psychology</span></button>
             </div>
         </div>
     </div>

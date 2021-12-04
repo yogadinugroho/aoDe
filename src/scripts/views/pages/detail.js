@@ -1,4 +1,5 @@
 /* eslint-disable linebreak-style */
+/* eslint-disable no-undef */
 import DoaSource from '../../data/doa-source';
 import UrlParser from '../../routes/url-parser';
 import { createDetailDoaItemTemplate } from '../templates/template-creator';
@@ -17,6 +18,15 @@ const Detail = {
     const doa = await DoaSource.detailDoa(url.id);
     const doaContainer = document.querySelector('#doa-list-detail');
     doaContainer.innerHTML = createDetailDoaItemTemplate(doa);
+    // responsiveVoice.setDefaultRate(0.1); not supported in arabic
+    const buttonLafal = document.querySelector('.btn-voice');
+    buttonLafal.addEventListener('click', () => {
+      if (responsiveVoice.isPlaying()) {
+        responsiveVoice.cancel();
+      } else {
+        responsiveVoice.speak(document.getElementById('txt-lafal').textContent, 'Arabic Male');
+      }
+    });
   },
 };
 

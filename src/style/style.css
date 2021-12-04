@@ -116,3 +116,7 @@ h2 {
 .btn-card {
   font-size: 55px;
 }
+button {
+  border: none;
+  background-color: transparent;
+}
