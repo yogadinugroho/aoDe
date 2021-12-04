@@ -1,4 +1,5 @@
 /* eslint-disable linebreak-style */
+/* eslint-disable no-alert */
 import { ingindihafalIdb } from '../../data/ingindihafal-doa';
 import { createDoaItemTemplate } from '../templates/template-creator';
 
@@ -18,6 +19,19 @@ const IngindiHafal = {
     const doaContainer = document.querySelector('.doa-list');
     doa2.forEach((doa) => {
       doaContainer.innerHTML += createDoaItemTemplate(doa);
+    });
+    const queryDoa = document.querySelector('#inputDoa');
+    const buttonSearch = document.querySelector('#buttonSearch');
+    buttonSearch.addEventListener('click', async () => {
+      const filteredDoa = ingindihafalIdb.searchIngindihafal(queryDoa.value);
+      doaContainer.innerHTML = '';
+      try {
+        (await filteredDoa).forEach((doa) => {
+          doaContainer.innerHTML += createDoaItemTemplate(doa);
+        });
+      } catch (error) {
+        alert(error);
+      }
     });
   },
 };

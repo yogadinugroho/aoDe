@@ -1,4 +1,7 @@
 /* eslint-disable linebreak-style */
+/* eslint-disable max-len */
+/* eslint-disable prefer-promise-reject-errors */
+/* eslint-disable no-alert */
 /* eslint-disable no-prototype-builtins */
 /* eslint-disable consistent-return */
 /* eslint-disable import/prefer-default-export */
@@ -17,6 +20,17 @@ const dbPromise = openDB(DATABASE_NAME, DATABASE_VERSION, {
 });
 
 const ingindihafalIdb = {
+  async searchIngindihafal(query) {
+    const doa2 = await this.getAllIngindihafal();
+    return new Promise((resolve, reject) => {
+      const filtereddoa = doa2.filter((doa) => doa.nama.toUpperCase().includes(query.toUpperCase()));
+      if (filtereddoa.length) {
+        resolve(filtereddoa);
+      } else {
+        reject(`${query} is not found`);
+      }
+    });
+  },
   async getIngindihafal(id) {
     if (!id) {
       return;
@@ -37,6 +51,17 @@ const ingindihafalIdb = {
   },
 };
 const sudahdihafalIdb = {
+  async searchSudahdihafal(query) {
+    const doa2 = await this.getAllSudahdihafal();
+    return new Promise((resolve, reject) => {
+      const filtereddoa = doa2.filter((doa) => doa.nama.toUpperCase().includes(query.toUpperCase()));
+      if (filtereddoa.length) {
+        resolve(filtereddoa);
+      } else {
+        reject(`${query} is not found`);
+      }
+    });
+  },
   async getSudahdihafal(id) {
     if (!id) {
       return;
