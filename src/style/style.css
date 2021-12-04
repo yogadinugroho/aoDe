@@ -12,17 +12,22 @@ a {
 body {
   background-color: #002366;
 }
-.navbar {
+.navigation-wrap {
   position: fixed;
   left: 0;
   width: 100%;
+  z-index: 1000;
   background-color: #002366;
   box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.5);
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  justify-content: space-between;
 }
 .navbar h1 a {
   font-size: 36px;
 }
 .navbar a {
+  font-size: 24px;
   color: #fa8072;
 }
 .navigation-wrap .nav-item {

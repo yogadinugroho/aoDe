@@ -31,3 +31,11 @@
     font-size: 29px;
   }
 }
+@media screen and (max-width: 991px) {
+  .navigation-wrap {
+    text-align: center;
+  }
+  .navigation-wrap .nav-link {
+    line-height: 30px;
+  }
+}
