@@ -20,9 +20,21 @@ const IngindiHafal = {
     doa2.forEach((doa) => {
       doaContainer.innerHTML += createDoaItemTemplate(doa);
     });
+    const searchForm = document.querySelector('#searchForm');
     const queryDoa = document.querySelector('#inputDoa');
     const buttonSearch = document.querySelector('#buttonSearch');
     buttonSearch.addEventListener('click', async () => {
+      const filteredDoa = ingindihafalIdb.searchIngindihafal(queryDoa.value);
+      doaContainer.innerHTML = '';
+      try {
+        (await filteredDoa).forEach((doa) => {
+          doaContainer.innerHTML += createDoaItemTemplate(doa);
+        });
+      } catch (error) {
+        alert(error);
+      }
+    });
+    searchForm.addEventListener('submit', async () => {
       const filteredDoa = ingindihafalIdb.searchIngindihafal(queryDoa.value);
       doaContainer.innerHTML = '';
       try {

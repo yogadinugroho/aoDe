@@ -21,6 +21,23 @@ const Beranda = {
     doa2.forEach((doa) => {
       doaContainer.innerHTML += createDoaItemTemplate(doa);
     });
+    const searchForm = document.querySelector('#searchForm');
+    const buttonSearch = document.querySelector('#buttonSearch');
+    const keywordsDoa = document.querySelector('#inputDoa');
+    buttonSearch.addEventListener('click', async () => {
+      const filterredDoa = await DoaSource.searchDoa(keywordsDoa.value);
+      doaContainer.innerHTML = '';
+      filterredDoa.forEach((doa) => {
+        doaContainer.innerHTML += createDoaItemTemplate(doa);
+      });
+    });
+    searchForm.addEventListener('submit', async () => {
+      const filterredDoa = await DoaSource.searchDoa(keywordsDoa.value);
+      doaContainer.innerHTML = '';
+      filterredDoa.forEach((doa) => {
+        doaContainer.innerHTML += createDoaItemTemplate(doa);
+      });
+    });
   },
 };
 export default Beranda;

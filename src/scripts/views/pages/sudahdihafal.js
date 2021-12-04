@@ -19,9 +19,17 @@ const SudahdiHafal = {
     doa2.forEach((doa) => {
       doaContainer.innerHTML += createDoaItemTemplate(doa);
     });
+    const searchForm = document.querySelector('#searchForm');
     const queryDoa = document.querySelector('#inputDoa');
     const buttonSearch = document.querySelector('#buttonSearch');
     buttonSearch.addEventListener('click', async () => {
+      const filteredDoa = sudahdihafalIdb.searchSudahdihafal(queryDoa.value);
+      doaContainer.innerHTML = '';
+      (await filteredDoa).forEach((doa) => {
+        doaContainer.innerHTML += createDoaItemTemplate(doa);
+      });
+    });
+    searchForm.addEventListener('submit', async () => {
       const filteredDoa = sudahdihafalIdb.searchSudahdihafal(queryDoa.value);
       doaContainer.innerHTML = '';
       (await filteredDoa).forEach((doa) => {

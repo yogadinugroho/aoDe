@@ -19,6 +19,9 @@ body {
   background-color: #002366;
   box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.5);
 }
+.navbar h1 a {
+  font-size: 36px;
+}
 .navbar a {
   color: #fa8072;
 }
@@ -51,9 +54,13 @@ body {
   padding-top: 50px;
 }
 h2 {
+  font-size: 31px;
   padding-top: 20px;
   color: #fa8072;
   text-align: center;
+}
+.fas {
+  font-size: 36px;
 }
 #searchForm {
   justify-content: center;

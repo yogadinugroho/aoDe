@@ -23,5 +23,15 @@ class DoaSource {
       alert(error);
     }
   }
+
+  static async searchDoa(keywords) {
+    try {
+      const response = await fetch(API_ENDPOINT.SEARCH(keywords));
+      const responseJson = await response.json();
+      return responseJson.data;
+    } catch (error) {
+      alert(error);
+    }
+  }
 }
 export default DoaSource;
