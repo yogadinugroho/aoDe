@@ -13,8 +13,6 @@ const Detail = {
   },
 
   async afterRender() {
-    //   skiplink
-
     const url = UrlParser.parseActiveUrlWithoutCombiner();
     const doa = await DoaSource.detailDoa(url.id);
     const doaContainer = document.querySelector('#doa-list-detail');

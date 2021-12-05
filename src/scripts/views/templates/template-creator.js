@@ -35,9 +35,9 @@ const createDetailDoaItemTemplate = (doa) => `
         </div>
         <div class="container-button">
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <button class="btn-voice" ><span class="material-icons-outlined btn-card">volume_up</span></button>
-                <button class="btn-ingin" ><span class="material-icons-round btn-card">auto_stories</span></button>
-                <button class="btn-sudah" ><span class="material-icons-round btn-card">psychology</span></button>
+                <button class="btn-voice" ><i class="fas fa-volume-up"></i></button>
+                <button class="btn-ingin" ><i class="fas fa-book-open"></i></button>
+                <button class="btn-sudah" ><i class="fas fa-check-circle"></i></button>
             </div>
         </div>
     </div>
