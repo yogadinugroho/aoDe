@@ -70,10 +70,14 @@ body {
   padding-top: 90px;
 }
 .hero {
+  background-image: url('/images/dummyHero.jpg');
   width: 100%;
   min-height: 350px;
   background-color: grey;
   padding-top: 50px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 h2 {
   font-size: 31px;
