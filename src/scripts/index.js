@@ -3,6 +3,8 @@
 import '../style/style.css';
 import '../style/responsive-style.css';
 import 'regenerator-runtime';
+import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 import App from './views/app';
 
 const app = new App();
