@@ -1,4 +1,5 @@
 /* eslint-disable linebreak-style */
+/* eslint-disable no-param-reassign */
 import DoaSource from '../../data/doa-source';
 import { createDoaItemTemplate } from '../templates/template-creator';
 
@@ -51,6 +52,17 @@ const Beranda = {
           doaContainer.innerHTML += createDoaItemTemplate(doa);
         });
       }
+    });
+    const titleDoa = document.querySelectorAll('#title-doa');
+    titleDoa.forEach((title) => {
+      title.addEventListener('focus', (event) => {
+        event.target.parentElement.parentElement.parentElement.style.top = '-20%';
+      });
+    });
+    titleDoa.forEach((title) => {
+      title.addEventListener('blur', (event) => {
+        event.target.parentElement.parentElement.parentElement.style.top = '-50%';
+      });
     });
   },
 };

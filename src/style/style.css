@@ -44,6 +44,9 @@ body {
   transition: all 0.3s ease-out;
   justify-content: space-between;
 }
+.navigation-wrap i {
+  font-size: 27px;
+}
 .navbar h1 a {
   font-size: 36px;
 }

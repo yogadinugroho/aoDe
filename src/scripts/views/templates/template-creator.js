@@ -6,7 +6,7 @@ const createDoaItemTemplate = (doa) => `
         <div class="img-item">
             <img class="lazyload" data-src="https://png.pngtree.com/element_our/20190529/ourlarge/pngtree-cartoon-sleeping-day-character-illustration-image_1216735.jpg" alt="${doa.nama}">
         </div>
-        <div class="content-item">
+        <div class="content-item" id="content-item">
             <div class="title-item">
                 <h3><a id="title-doa" href="${`/#/show/${doa.id_doa}`}">${doa.nama}</a></h3>
             </div>

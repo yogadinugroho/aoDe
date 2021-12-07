@@ -1,4 +1,5 @@
 /* eslint-disable linebreak-style */
+/* eslint-disable no-param-reassign */
 import { sudahdihafalIdb } from '../../data/ingindihafal-doa';
 import { createDoaItemTemplate } from '../templates/template-creator';
 
@@ -34,6 +35,17 @@ const SudahdiHafal = {
       doaContainer.innerHTML = '';
       (await filteredDoa).forEach((doa) => {
         doaContainer.innerHTML += createDoaItemTemplate(doa);
+      });
+    });
+    const titleDoa = document.querySelectorAll('#title-doa');
+    titleDoa.forEach((title) => {
+      title.addEventListener('focus', (event) => {
+        event.target.parentElement.parentElement.parentElement.style.top = '-20%';
+      });
+    });
+    titleDoa.forEach((title) => {
+      title.addEventListener('blur', (event) => {
+        event.target.parentElement.parentElement.parentElement.style.top = '-50%';
       });
     });
   },
