@@ -4,7 +4,7 @@
 const createDoaItemTemplate = (doa) => `
     <div class="doa-item">
         <div class="img-item">
-            <img class="lazyload" data-src="https://png.pngtree.com/element_our/20190529/ourlarge/pngtree-cartoon-sleeping-day-character-illustration-image_1216735.jpg">
+            <img class="lazyload" data-src="https://png.pngtree.com/element_our/20190529/ourlarge/pngtree-cartoon-sleeping-day-character-illustration-image_1216735.jpg" alt="${doa.nama}">
         </div>
         <div class="content-item">
             <div class="title-item">
@@ -16,7 +16,7 @@ const createDoaItemTemplate = (doa) => `
 const createDetailDoaItemTemplate = (doa) => `
     <h2 align="center" id="title-page">${doa.nama}</h2>
     <div class="card mx-auto card-detail">
-        <img class="lazyload" data-src="https://png.pngtree.com/element_our/20190529/ourlarge/pngtree-cartoon-sleeping-day-character-illustration-image_1216735.jpg" class="card-img-top" alt="...">
+        <img class="lazyload" data-src="https://png.pngtree.com/element_our/20190529/ourlarge/pngtree-cartoon-sleeping-day-character-illustration-image_1216735.jpg" class="card-img-top" alt="${doa.nama}">
         <div class="card-body">
             <h3 class="card-title">Lafal :</h3>
             <p class="card-text" id="txt-lafal" align="justify">${doa.lafal}</p>

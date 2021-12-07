@@ -1,27 +1,6 @@
-@media screen and (max-width: 669px){
-  .app-bar .navbar .container .navbar-brand{
-    margin-left: 10px;
-  }
-  .hero {
-    background-image: url('/images/dummyHero-small.jpg');
-  }
-}
-
 @media screen and (min-width: 670px) {
-  .app-bar .navbar .container h1 a{
-    font-size: 1em;
-  }
-
   .hero {
-    background-image: url('/images/dummyHero-small.jpg');
-  }
-  
-  .app-bar .navbar .container .navbar-brand{
-    margin-left: -70px;
-  }
-
-  .app-bar .navbar .container .navbar-toggler{
-    margin-right: -70px;
+    background-image: url("/images/dummyHero-small.jpg");
   }
   .doa-list {
     grid-template-columns: 1fr 1fr;
@@ -41,7 +20,7 @@
     font-size: 27px;
   }
   .hero {
-    background-image: url('/images/dummyHero-large.jpg');
+    background-image: url("/images/dummyHero-large.jpg");
   }
 }
 @media screen and (min-width: 1240px) {
