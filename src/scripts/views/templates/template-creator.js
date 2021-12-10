@@ -14,9 +14,9 @@ const createDoaItemTemplate = (doa) => `
     </div>
 `;
 const createDetailDoaItemTemplate = (doa) => `
-    <h2 tabindex="0" align="center" id="title-page">${doa.nama}</h2>
+    <h2 tabindex="0" align="center" id="title-page">${doa.nama.toUpperCase()}</h2>
     <div class="card mx-auto card-detail">
-        <img class="lazyload" data-src="https://png.pngtree.com/element_our/20190529/ourlarge/pngtree-cartoon-sleeping-day-character-illustration-image_1216735.jpg" class="card-img-top" alt="${doa.nama}">
+        <img class="lazyload" data-src="${doa.gambar}" class="card-img-top" alt="${doa.nama}">
         <div class="card-body">
             <h3 tabindex="0" class="card-title">Lafal :</h3>
             <p class="card-text" id="txt-lafal" align="justify">${doa.ayat}</p>

@@ -2,7 +2,7 @@
 const doa2 = [
   {
     id: '1',
-    gambar: 'https://media.istockphoto.com/vectors/man-sleeping-guy-lies-on-bed-under-duvet-at-night-comfortable-sleep-vector-id1254563127?k=20&m=1254563127&s=612x612&w=0&h=75sYqA5HCE_8cAn-W4I_W1oGbagu5CG5y0_aNxI7AMw=',
+    gambar: 'https://media.istockphoto.com/vectors/woman-sleep-at-night-vector-id977762830?k=20&m=977762830&s=612x612&w=0&h=t33FZEFjsiiZ1jhGslcipk-e0Xw4IpcnXuPs0Mejl5Y=',
     nama: 'doa sebelum tidur',
     ayat: 'بِسْمِكَ االلّٰهُمَّ اَحْيَا وَبِاسْمِكَ اَمُوْتُ',
     latin: 'Bismikallaahumma ahyaa wa ammuut',
@@ -35,7 +35,7 @@ const doa2 = [
   {
     id: '5',
     nama: 'doa keluar rumah',
-    gambar: 'https://media.istockphoto.com/vectors/businessman-run-to-open-door-with-summer-nature-valley-landscape-vector-id1249121431?k=20&m=1249121431&s=612x612&w=0&h=bpYi1H4BhFoKPANmvEJaO2F-fCj1A_jj86Ct64Wpi9E=',
+    gambar: 'https://media.istockphoto.com/vectors/people-running-door-isolated-on-background-vector-illustration-vector-id1183790333?k=20&m=1183790333&s=612x612&w=0&h=lKVNuM69RjG-2U2snUUVwt8fMVFCSfm3GSuGZ8AKvJg=',
     ayat: 'بِسْمِ اللهِ تَوَكَّلْتُ عَلَى اللهِ لاَحَوْلَ وَلاَقُوَّةَ اِلاَّ بِالله',
     latin: "Bismillaahi tawakkaltu 'alalloohi laa hawlaa walaa quwwata illaa bilaahi",
     artinya: 'Dengan menyebut nama Allah aku bertawakal kepada Allah, tiada daya kekuatan melainkan dengan pertolongan Allah.',
@@ -83,7 +83,7 @@ const doa2 = [
   {
     id: '11',
     nama: 'doa setelah wudhu',
-    gambar: 'https://media.istockphoto.com/vectors/muslim-boy-and-girl-greeting-to-each-other-in-ramadan-muslim-flat-vector-id1225806375?k=20&m=1225806375&s=612x612&w=0&h=PwlAUWCHWrhuD2NkUopMay4N7E2qv5Q9NnYLrEIfld4=',
+    gambar: 'https://media.istockphoto.com/vectors/muslim-boy-perform-ablution-steps-vector-vector-id1125816818?k=20&m=1125816818&s=612x612&w=0&h=fTnzmOe5UGCUkfTzjnrpTJjo2GAG1l4XHybkk__K3Kg=',
     ayat: 'اَشْهَدُ اَنْ لاَّاِلَهَ اِلاَّاللهُ وَحْدَهُ لاَشَرِيْكَ لَهُ وَاَشْهَدُ اَنَّ مُحَمَّدًاعَبْدُهُ وَرَسُوْلُهُ. اَللّٰهُمَّ اجْعَلْنِىْ مِنَ التَّوَّابِيْنَ وَاجْعَلْنِىْ مِنَ الْمُتَطَهِّرِيْنَ، وَجْعَلْنِيْ مِنْ عِبَادِكَ الصَّالِحِيْنَ',
     latin: "Asyhadu allaa ilaaha illalloohu wahdahuu laa syariika lahu wa asyhadu anna muhammadan ‘abduhuuwa rosuuluhuu, alloohummaj’alnii minat tawwaabiina waj’alnii minal mutathohhiriina, waj'alnii min 'ibadikash shaalihiina.",
     artinya: 'Aku bersaksi, tidak ada Tuhan selain Allah Yang Maha Esa, tidak ada sekutu bagi-Nya, dan aku mengaku bahwa Nabi Muhammad itu adalah hamba dan Utusan Allah. Ya Allah, jadikanlah aku dari golongan orang-orang yang bertaubat dan jadikanlah aku dari golongan orang-orang yang suci dan jadikanlah aku dari golongan hamba-hamba Mu yang shaleh',
@@ -91,7 +91,7 @@ const doa2 = [
   {
     id: '12',
     nama: "doa sebelum membaca al-qur'an",
-    gambar: 'https://media.istockphoto.com/vectors/imam-reading-quran-with-his-students-illustration-vector-id943967596?k=20&m=943967596&s=612x612&w=0&h=GictiXxMxmWOnH2Zn5ygE7bteyiuXewjuzGcXDZ-EZ0=',
+    gambar: 'https://media.istockphoto.com/vectors/muslim-man-reading-holy-quran-vector-id1304614875?k=20&m=1304614875&s=612x612&w=0&h=pa94rcZ3zd3Jrn1F0KbgUB0HXJAXO5FzyB7qHzjJqFA=',
     ayat: 'اَللّٰهُمَّ افْتَحْ عَلَىَّ حِكْمَتَكَ وَانْشُرْ عَلَىَّ رَحْمَتَكَ وَذَكِّرْنِىْ مَانَسِيْتُ يَاذَاالْجَلاَلِ وَاْلاِكْرَامِ',
     latin: "Allahummaftah 'alayya hikmataka wansyur 'alayya rohmataka wa dzakkirnii maanasiitu yaa dzal jalaali wal ikhroomi",
     artinya: 'Ya Allah bukakanlah hikmahMu padaku, bentangkanlah rahmatMu padaku dan ingatkanlah aku terhadap apa yang aku lupa, wahai Dzat yang memiliki keagungan dan kemuliaan',
@@ -115,6 +115,7 @@ const doa2 = [
   {
     id: '15',
     nama: 'doa hendak berpergian',
+    gambar: 'https://media.istockphoto.com/vectors/traveling-people-vector-id947185360?k=20&m=947185360&s=612x612&w=0&h=7IkxEBAm1r9PZwILRk4q5thTjOM58r3UdhWvzqE2vAA=',
     ayat: 'اَللّٰهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هَذَا وَاطْوِعَنَّابُعْدَهُ اَللّٰهُمَّ اَنْتَ الصَّاحِبُ فِى السَّفَرِوَالْخَلِيْفَةُفِى الْاَهْلِ',
     latin: "Allahumma hawwin 'alainaa safaranaa hadzaa waatwi 'annaa bu'dahu. Alloohumma antashookhibu fiissafari walkholiifatu fiil ahli",
     artinya: 'Ya Allah, mudahkanlah kami berpergian ini, dan dekatkanlah kejauhannya. Ya Allah yang menemani dalam berpergian, dan Engkau pula yang melindungi keluarga.',
@@ -122,6 +123,7 @@ const doa2 = [
   {
     id: '16',
     nama: 'doa ketika sampai di tempat tujuan',
+    gambar: 'https://media.istockphoto.com/vectors/beach-landscape-with-umbrella-bag-sunglasses-and-cocktail-vector-id472290149?k=20&m=472290149&s=612x612&w=0&h=vqU56NnnCc9WoTR3xZmGmXLQMbLQV4swosFjeaNqKZI=',
     ayat: 'اَلْحَمْدُ ِللهِ الَّذِى سَلَمَنِى وَالَّذِى اَوَنِى وَالَّذِى جَمَعَ الشَّمْلَ بِ',
     latin: 'Alhamdulillahil ladzi sallamani wal ladzi awani wal ladzi jama’asy syamla bi',
     artinya: 'Segala puji bagi Allah, yang telah menyelamatkan akau dan yang telah melindungiku dan yang mengumpulkanku dengan keluargaku.',
@@ -129,6 +131,7 @@ const doa2 = [
   {
     id: '17',
     nama: 'doa memakai pakaian',
+    gambar: 'https://media.istockphoto.com/vectors/man-putting-on-his-shirt-illustration-vector-id1058479888?k=20&m=1058479888&s=612x612&w=0&h=mUIEDjNrzo4pcvqIC90ivqNS3FWFINWqB6uG2YWleWo=',
     ayat: 'بِسْمِ اللهِ اَللّٰهُمَّ اِنِّى اَسْأَلُكَ مِنْ خَيْرِهِ وَخَيْرِ مَاهُوَ لَهُ وَاَعُوْذُبِكَ مِنْ شَرِّهِ وَشَرِّمَا هُوَلَهُ',
     latin: "Bismillaahi, Alloohumma innii as-aluka min khoirihi wa khoiri maa huwa lahuu wa'a'uu dzubika min syarrihi wa syarri maa huwa lahuu",
     artinya: 'Dengan nama-Mu yaa Allah akku minta kepada Engkau kebaikan pakaian ini dan kebaikan apa yang ada padanya, dan aku berlindung kepada Engkau dari kejahatan pakaian ini dan kejahatan yang ada padanya',
@@ -136,6 +139,7 @@ const doa2 = [
   {
     id: '18',
     nama: 'doa memakai pakaian baru',
+    gambar: 'https://media.istockphoto.com/vectors/happy-arab-family-is-shopping-vector-id1004746798?k=20&m=1004746798&s=612x612&w=0&h=Dui7YyZ5yNm2n_Buhn5XoGjm9-IXQYmanMpuvHDsIGc=',
     ayat: ' اَلْحَمْدُ لِلّٰهِ الَّذِىْ كَسَانِىْ هَذَا وَرَزَقَنِيْهِ مِنْ غَيْرِ حَوْلٍ مِنِّىْ وَلاَقُوَّةٍ',
     latin: 'Alhamdu lillaahil ladzii kasaanii haadzaa wa rozaqoniihi min ghoiri hawlim minni wa laa quwwatin',
     artinya: 'Segala puji bagi Allah yang memberi aku pakaian ini dan memberi rizeki dengan tiada upaya dan kekuatan dariku',
@@ -143,6 +147,7 @@ const doa2 = [
   {
     id: '19',
     nama: 'doa melepas pakaian',
+    gambar: 'https://media.istockphoto.com/vectors/businessman-undress-his-suit-and-going-to-relax-on-vacation-vector-id531012279?k=20&m=531012279&s=612x612&w=0&h=-T3hWEnaWWpHqrhXumtx8I4FLkbhBnJNVfsxtP9iWPA=',
     ayat: 'بِسْمِ اللهِ الَّذِيْ لاَ إِلَهَ إِلَّا هُوَ',
     latin: 'Bismillaahil ladzii laa ilaaha illaa huwa',
     artinya: 'Dengan nama Allah yang tiada Tuhan selain-Nya',
@@ -150,7 +155,7 @@ const doa2 = [
   {
     id: '20',
     nama: 'doa menjelang sholat subuh',
-    gambar: 'https://media.istockphoto.com/vectors/muslim-kid-cartoon-praying-vector-id524905019?k=20&m=524905019&s=612x612&w=0&h=kfzXp9OHfXEHRN6vlAJAxS3SMp0YV3BxRaefwmhTbB0=',
+    gambar: 'https://media.istockphoto.com/vectors/-vector-id1294585974?k=20&m=1294585974&s=612x612&w=0&h=FUdIsN1pT-IkAIMdRHkOTAZfUpzc0kMJNr3J-Bs6VBc=',
     ayat: 'اَللّٰهُمَّ اِنِّى اَعُوْذُ بِكَ مِنْ ضِيْقِ الدُّنْيَا وَضِيْقِ يَوْمِ الْقِيَامَةِ',
     latin: "Allaahumma inni a'udzubika min dzhiiqid-dunyaa wa dzhiiqi yaumal-qiyaamati",
     artinya: 'Ya Allah! Sesungguhnya aku berlindung kepada-Mu dari kesempitan dunia dan kesempitan hari kiamat. (HR. Abu Daud)',
@@ -158,6 +163,7 @@ const doa2 = [
   {
     id: '21',
     nama: 'doa menyambut pagi hari',
+    gambar: 'https://media.istockphoto.com/vectors/spring-or-summer-seasons-rural-background-vector-id164455144?k=20&m=164455144&s=612x612&w=0&h=AM9AhsyNTtNpEHzAmASl73fAIpg_Y7ISsXj_NAKa15c=',
     ayat: 'اَللّٰهُمَّ بِكَ اَصْبَحْنَا وَبِكَ اَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوْتُ وَاِلَيْكَ النُّشُوْرُ',
     latin: 'Alloohumma bika ashbahnaa wa bika amsainaa wa bika nahyaa wa bika namuutu wa ilaikan nusyuuru',
     artinya: 'Ya Allah, karena Engkau kami mengalami waktu pagi dan waktu petang, dan karena Engkau kami hidup dan mati dan kepada-Mu juga kami akan kembali.',
@@ -165,6 +171,7 @@ const doa2 = [
   {
     id: '22',
     nama: 'doa menyambut sore hari',
+    gambar: 'https://media.istockphoto.com/vectors/tropical-summer-sunset-vector-cartoon-island-landscape-illustration-vector-id1020253114?k=20&m=1020253114&s=612x612&w=0&h=sz6XlAIJMj8UYIwX1IkKEZiAnhsN3C-WHswhDCYKiuQ=',
     ayat: 'اَللّٰهُمَّ بِكَ اَمْسَيْنَا وَبِكَ اَصْبَحْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوْتُ وَاِلَيْكَ الْمَصِيْرُ',
     latin: 'Allahumma bika amsainaa wa bika ashbahnaa wa bika nahyaa wa bika namuutu wa ilaikal mashiir',
     artinya: 'Ya Allah, karena Engkau kami mengalami waktu petang dan waktu pagi, karena Engkau kami hidup dan mati dan kepada-Mu juga kami akan kembali.',
@@ -172,6 +179,7 @@ const doa2 = [
   {
     id: '23',
     nama: 'doa bercermin',
+    gambar: 'https://media.istockphoto.com/vectors/businesswoman-looking-at-mirror-and-imagine-herself-successful-vector-id966411814?k=20&m=966411814&s=612x612&w=0&h=x_nm1LyYy5pkOyHDYxrius14GhFBsqnWO-0yDpdND3U=',
     ayat: 'اللَّهُمَّ كَمَا حَسَّنْتَ خَلْقِي فَحَسِّنْ خُلُقِي',
     latin: 'Alloohumma kamaa hassanta kholqii fahassin khuluqi',
     artinya: 'Ya Allah, sebagaimana Engkau baguskan tubuhku, maka baguskanlah akhlaqku',
@@ -179,6 +187,7 @@ const doa2 = [
   {
     id: '24',
     nama: 'doa pergi ke masjid',
+    gambar: 'https://media.istockphoto.com/vectors/muslim-go-to-mosque-together-in-the-night-day-for-shalat-praying-to-vector-id1214888752?k=20&m=1214888752&s=612x612&w=0&h=_ABbES1VLB8WjMV2qhRz6PXm3rQT5y5o7Npm3K1kxPg=',
     ayat: 'اللَّهُمَّ اجْعَلْ فِى قَلْبِى نُورًا . وَفِى بَصَرِى نُورًا . وَفِى سَمْعِى نُورًا . وَعَنْ يَمِينِى نُورًا . وَعَنْ يَسَارِى نُورًا . وَفَوْقِى نُورًا . وَتَحْتِى نُورًا . وَأَمَامِى نُورًا . وَخَلْفِى نُورًا . وَاجْعَلْ لِى نُورًا',
     latin: 'Alloohummaj’al fii qolbi nuuron. Wa fii bashori nuuron. Wa fii sam’i nuuron. Wa ‘an yamiinii nuuron. Wa ‘ay yasaarii nuuron. Wa fauqi nuuron. Wa tahti nuuron. Wa amaamii nuuron. Wakholqi nuuron. Waj’al lii nuuron',
     artinya: 'Ya Allah, jadikanlah di dalam hatiku cahaya. Dalam penglihatanku cahaya. Pada pendengaranku cahaya. Sebelah kananku cahaya. Sebelah kiriku cahaya. Atasku cahaya. Bawahku cahaya. Depanku cahaya. Belakangku cahaya. Dan berikanlah cahaya kepadaku.',
@@ -186,6 +195,7 @@ const doa2 = [
   {
     id: '25',
     nama: 'doa masuk masjid',
+    gambar: 'https://media.istockphoto.com/vectors/happy-children-to-enter-the-mosque-vector-id1148757241?k=20&m=1148757241&s=612x612&w=0&h=RZPupe9odIXniSqHHJuYkT1rsVCTq38IP64f1V-waFo=',
     ayat: 'اللَّهُمَّ افْتَحْ لِى أَبْوَابَ رَحْمَتِكَ',
     latin: 'Alloohummaf tahlii abwaaba rohmatik',
     artinya: 'Ya Allah, bukakanlah pintu-pintu rahmatMu untukku',
@@ -193,6 +203,7 @@ const doa2 = [
   {
     id: '26',
     nama: 'doa keluar masjid',
+    gambar: 'https://media.istockphoto.com/vectors/couples-muslim-entering-the-mosque-entrance-for-praying-vector-id1148757196?k=20&m=1148757196&s=612x612&w=0&h=RbLQHjDERSV0pZyDwJXtcKHSneK6lTHhoxjGHlYYXAA=',
     ayat: 'اللَّهُمَّ إِنِّى أَسْأَلُكَ مِنْ فَضْلِكَ',
     latin: 'Alloohumma innii as-aluka min fadllik',
     artinya: 'Ya Allah, sesungguhnya aku memohon keutamaan kepadaMu',
@@ -200,6 +211,7 @@ const doa2 = [
   {
     id: '27',
     nama: 'doa setelah adzan',
+    gambar: 'https://media.istockphoto.com/vectors/cartoon-muslim-boy-call-adhan-vector-id1303957562?k=20&m=1303957562&s=612x612&w=0&h=4XNLQzEBxfCC1qK-u1C62FIk6PgyxKgxj4p8dsaBC5U=',
     ayat: 'اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ وَالصَّلاَةِ الْقَائِمَةِ آتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِى وَعَدْتَهُ',
     latin: 'Alloohumma robba haadzihid da’watit taammah washsholaatil qoo-imah. Aati Muhammadanil wasiilata wal fadliilah. Wab’atshu maqooman mahmuudanil ladzii wa ‘adtah',
     artinya: 'Ya Allah, Tuhan panggilan yang sempurna dan shalat yang akan didirikan ini. Berikanlah wasilah dan keutamaan kepada Muhammad. Bangkitkanlah dia pada kedudukan yang terpuji seperti yang Engkau janjikan kepadanya.',
@@ -207,6 +219,7 @@ const doa2 = [
   {
     id: '28',
     nama: 'doa naik kendaraan',
+    gambar: 'https://media.istockphoto.com/vectors/family-road-trip-travel-by-car-with-kids-vector-illustration-vector-id961202858?k=20&m=961202858&s=612x612&w=0&h=wulrH7u3UX5K4lAyxC94AvV0-FHU4cxRoEvvWrzXxq0=',
     ayat: 'سُبْحَانَ الَّذِى سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَى رَبِّنَا لَمُنْقَلِبُونَ',
     latin: 'Subhaanal ladzii sakhkhoro lanaa haadzaa wamaa kunnaa lahuu muqriniin. Wa innaa ilaa robbinaa lamunqolibuun',
     artinya: 'Mahasuci Dia yang telah menundukkan semua ini bagi kami padahal sebelumnya kami tidak mampu menguasainya. Dan sesungguhnya kami akan kembali kepada Tuhan kami.',
@@ -214,6 +227,7 @@ const doa2 = [
   {
     id: '29',
     nama: 'doa masuk pasar',
+    gambar: 'https://media.istockphoto.com/vectors/market2-vector-id1332615316?k=20&m=1332615316&s=612x612&w=0&h=yk8b6VFRpPCQAwqfo3dG_yuxmhjoBvzjrPJa4_GgZX4=',
     ayat: 'لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكُ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِى وَيُمِيتُ وَهُوَ حَىٌّ لاَ يَمُوتُ بِيَدِهِ الْخَيْرُ وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ',
     latin: 'Laa ilaaha illalloohu wahdahu laa syariikalah. Lahul mulku walahul hamdu. Yuhyii wa yumiitu wahuwa hayyun laa yamuut. Biyadihil khoir wahuwa ‘alaa kulli syai-in qodiir',
     artinya: 'Tiada tuhan selain Allah Yang Maha Esa, tiada sekutu bagiNya. Dia yang mempunyai kerajaan dan segala pujian. Dialah yang menghidupkan dan mematikan, dan Dia Mahahidup yang tidak mati. Di tangan-Nya segala kebaikan dan Dia Mahakuasa atas segala sesuatu.',
@@ -221,6 +235,7 @@ const doa2 = [
   {
     id: '30',
     nama: 'doa sebelum makan',
+    gambar: 'https://media.istockphoto.com/vectors/muslim-family-praying-before-having-iftar-vector-id1304710913?k=20&m=1304710913&s=612x612&w=0&h=negJYTCAkJQz2bFMSDYbt1ecMemSVCNNS2cE3DrnMzg=',
     ayat: 'اَللّٰهُمَّ بَارِكْ لَنَا فِيْمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ',
     latin: "Allahumma baarik lanaa fiimaa rozaqtanaa wa qinaa 'adzaa bannaar.",
     artinya: 'Ya Allah, berkahilah kami dalam rezeki yang telah Engkau berikan kepada kami dan peliharalah kami dari siksa api neraka',
@@ -228,6 +243,7 @@ const doa2 = [
   {
     id: '31',
     nama: 'doa sesudah makan',
+    gambar: 'https://media.istockphoto.com/vectors/man-table-full-vector-id831256970?k=20&m=831256970&s=612x612&w=0&h=fo3li8YpkUKbrNhNihSeqYb9w1ofdESKMC7hJ87tAN4=',
     ayat: 'اَلْحَمْدُ ِللهِ الَّذِىْ اَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مُسْلِمِيْنَ',
     latin: "Alhamdulillahilladzi ath-amanaa wa saqoonaa wa ja'alanaa minal muslimiin.",
     artinya: 'Segala puji bagi Allah yang telah memberi kami makan dan minum serta menjadikan kami termasuk dari kaum muslimin.',
@@ -235,6 +251,7 @@ const doa2 = [
   {
     id: '32',
     nama: 'doa ketika turun hujan',
+    gambar: 'https://media.istockphoto.com/vectors/rain-on-city-background-rainy-and-windy-day-vector-illustration-in-vector-id1273543113?k=20&m=1273543113&s=612x612&w=0&h=4ew-wrqklFCwboZCCK7RG9c2VMXCgSxK-2_bQiQqlKw=',
     ayat: 'اللَّهُمَّ صَيِّبًا نَافِعًا',
     latin: 'Allahumma shayyiban nafi’an.',
     artinya: 'Ya Allah, curahkanlah air hujan yang bermanfaat. (HR Bukhar dari Aisyah RA)',
@@ -242,6 +259,7 @@ const doa2 = [
   {
     id: '33',
     nama: 'doa ketika takut bahaya hujan lebat',
+    gambar: 'https://media.istockphoto.com/vectors/thunderstorm-in-the-valley-vector-id896045466?k=20&m=896045466&s=612x612&w=0&h=Q1RuCd_vuARwyfv3ejM7Pa2H_RXsIXjaj8TSJAxUApg=',
     ayat: 'اللَّهُمَّ حَوَالَيْنَا وَلاَ عَلَيْنَا ، اللَّهُمَّ عَلَى الآكَامِ وَالظِّرَابِ ، وَبُطُونِ الأَوْدِيَةِ ، وَمَنَابِتِ الشَّجَرِ',
     latin: 'Allahumma hawalaina wala ‘alaina. Allahumma ‘alal akami wa adhirabi, wa buthunil auwdiyati, wamanabitisyajari.',
     artinya: 'Ya Allah turunkan hujan ini di sekitar kami jangan di atas kami. Ya Allah curahkanlah hujan ini di atas bukit-bukit, di hutan-hutan lebat, di gunung-gunung kecil, di lembah-lembah, dan tempat-tempat tumbuhnya pepohonan. (HR Bukhari Muslim)',
@@ -249,6 +267,7 @@ const doa2 = [
   {
     id: '34',
     nama: 'doa setelah turun hujan',
+    gambar: 'https://media.istockphoto.com/vectors/sun-after-rain-vector-id546019814?k=20&m=546019814&s=612x612&w=0&h=jJQuGqKSXln8YThN2yRWxDPVXszGx1eJJLqJZ4-wyJs=',
     ayat: 'مُطِرْنَا بِفَضْلِ اللـهِ ورَحْمَتِهِ',
     latin: 'Muthirnaa bifadhlillahi wa rahmatihi.',
     artinya: 'Diturunkan kepada kami hujan berkat anugerah Allah dan rahmat-Nya. (HR Bukhari)',
@@ -256,6 +275,7 @@ const doa2 = [
   {
     id: '35',
     nama: 'doa bertemu binatang buas',
+    gambar: 'https://media.istockphoto.com/vectors/animal-in-the-jungle-vector-id121584576?k=20&m=121584576&s=612x612&w=0&h=p53B9MBSGe0LXr8zSE38nVfHHeJZqNx9hn_nqDhBC4Q=',
     ayat: 'إِنَّهُۥ مِن سُلَيْمَٰنَ وَإِنَّهُۥ بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ',
     latin: 'Innahụ min sulaimāna wa innahụ bismillāhir-raḥmānir-raḥīm',
     artinya: 'Sesungguhnya surat itu, dari SuIaiman dan sesungguhnya (isi)nya: Dengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang. (Qs. An Naml: 30 )',
@@ -263,6 +283,7 @@ const doa2 = [
   {
     id: '36',
     nama: 'doa agar selalu dicukupkan rezeki',
+    gambar: 'https://media.istockphoto.com/vectors/piggy-bank-financial-analysis-and-investment-vector-id1139010278?k=20&m=1139010278&s=612x612&w=0&h=TseKOCKDMwCCs8HWYtCayQbDGEWN4-_lwEjZ8hCYvRo=',
     ayat: 'اَللّٰهُمَّ اَكْفِنِيْ بِحَلَالِكَ عَنْ حَرَامِكَ، وَأَغْنِنِيْ بِفَضْلِكَ عَمَّنْ سِوَاكَ',
     latin: 'Allahummakfini bihalalika ‘an haramik wa aghnini bifadhlika amman siwak',
     artinya: 'Ya Allah, berilah aku kecukupan dengan rezeki yang halal, sehingga aku tidak memerlukan yang haram, dan berilah aku kekayaan dengan karuniamu, sehingga aku tidak memerlukan bantuan orang lain, selain diri-mu. (HR. Ahmad)',
@@ -270,6 +291,7 @@ const doa2 = [
   {
     id: '37',
     nama: 'doa ketika menyisir rambut',
+    gambar: 'https://media.istockphoto.com/vectors/girl-combing-hair-vector-id863887250?k=20&m=863887250&s=612x612&w=0&h=cv3VPLS2-suYNUVtEJsEyrNU-WCcoIotlJ5AN7JZb6A=',
     ayat: 'اَللّهُمَّ حَرِّمْ شَعْرِى وَبَشَرِى عَلىَ النَّار',
     latin: "ALLAHUMMA HARRIM SYA'RII WA BASYARII 'ALAN NAAR",
     artinya: 'Ya Allah, halangilah rambut dan kulitku dari api neraka',
