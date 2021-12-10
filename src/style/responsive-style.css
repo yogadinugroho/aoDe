@@ -1,0 +1,47 @@
+@media screen and (min-width: 670px) {
+  .hero {
+    background-image: url("/images/dummyHero-small.jpg");
+  }
+  .doa-list {
+    grid-template-columns: 1fr 1fr;
+  }
+  .doa-item .title-item {
+    top: 65%;
+  }
+  .doa-item:hover .content-item {
+    top: -25%;
+  }
+  .doa-item .title-item a {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1005px) {
+  .doa-item .title-item a {
+    font-size: 27px;
+  }
+  .hero {
+    background-image: url("/images/dummyHero-large.jpg");
+  }
+}
+@media screen and (min-width: 1240px) {
+  .doa-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .doa-item .title-item {
+    top: 60%;
+  }
+  .doa-item:hover .content-item {
+    top: -20%;
+  }
+  .doa-item .title-item a {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .navigation-wrap {
+    text-align: center;
+  }
+  .navigation-wrap .nav-link {
+    line-height: 30px;
+  }
+}
