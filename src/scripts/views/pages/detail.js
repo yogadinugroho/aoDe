@@ -41,11 +41,13 @@ const Detail = {
     const buttonInginActived = document.querySelector('.btn-ingin-actived');
     buttonIngin.addEventListener('click', async () => {
       if (buttonInginActived === null) {
+        swal('doa berhasil dimasukkan', 'jangan lupa dihafal ya!', 'success');
         buttonSudah.classList.remove('btn-sudah-actived');
         await sudahdihafalIdb.deleteSudahdihafal(doa.id);
         await ingindihafalIdb.putIngindihafal(doa);
         buttonIngin.classList.add('btn-ingin-actived');
       } else {
+        swal('doa berhasil dihapus', '', 'success');
         buttonIngin.classList.remove('btn-ingin-actived');
         await ingindihafalIdb.deleteIngindihafal(doa.id);
       }
@@ -57,11 +59,13 @@ const Detail = {
     const buttonSudahActived = document.querySelector('.btn-sudah-actived');
     buttonSudah.addEventListener('click', async () => {
       if (buttonSudahActived === null) {
+        swal('pintar! kamu sudah menghafalnya', 'jangan lupa berdoa setiap hari ya!', 'success');
         buttonIngin.classList.remove('btn-ingin-actived');
         await sudahdihafalIdb.putSudahdihafal(doa);
         await ingindihafalIdb.deleteIngindihafal(doa.id);
         buttonSudah.classList.add('btn-sudah-actived');
       } else {
+        swal('doa berhasil dihapus', '', 'success');
         buttonSudah.classList.remove('btn-sudah-actived');
         await sudahdihafalIdb.deleteSudahdihafal(doa.id);
       }

@@ -1,6 +1,5 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable import/prefer-default-export */
-
 const createDoaItemTemplate = (doa) => `
     <div class="doa-item">
         <div class="img-item">
@@ -14,9 +13,9 @@ const createDoaItemTemplate = (doa) => `
     </div>
 `;
 const createDetailDoaItemTemplate = (doa) => `
-    <h2 tabindex="0" align="center" id="title-page">${doa.nama.toUpperCase()}</h2>
     <div class="card mx-auto card-detail">
-        <img class="lazyload" data-src="${doa.gambar}" class="card-img-top" alt="${doa.nama}">
+    <h2 class="doa-name" tabindex="0" align="center">${doa.nama.toUpperCase()}</h2>
+    <img class="lazyload" data-src="${doa.gambar}" class="card-img-top-center" alt="${doa.nama}">
         <div class="card-body">
             <h3 tabindex="0" class="card-title">Lafal :</h3>
             <p class="card-text" id="txt-lafal" align="justify">${doa.ayat}</p>

@@ -17,7 +17,7 @@ html {
 }
 .skip-link {
   position: absolute;
-  top: -55px;
+  top: -140px;
   left: 0;
   background-color: #bf1722;
   color: white;
@@ -26,7 +26,6 @@ html {
 }
 
 .skip-link:focus {
-  z-index: 100;
   top: 0;
 }
 
@@ -35,6 +34,7 @@ body {
 }
 .navigation-wrap {
   position: fixed;
+  top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
@@ -66,32 +66,33 @@ body {
   border: unset;
   box-shadow: none;
 }
-.skip {
-  width: 100%;
-  min-height: 50px;
-}
-#title-page {
-  font-size: 36px;
-  padding-top: 90px;
-}
 .top-banner {
   padding-top: 100px;
 }
 .hero {
-  background-image: url("/images/dummyHero.jpg");
-  width: 100%;
-  min-height: 350px;
+  background-image: url("/images/aodeHero-large.jpg");
+  height: 600px;
   background-color: grey;
   padding-top: 50px;
-  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 h2 {
   font-size: 31px;
   padding-top: 20px;
-  color: #fa8072;
   text-align: center;
+}
+#title-page {
+  font-size: 36px;
+  color: #fa8072;
+  padding-top: 100px;
+}
+#doa {
+  color: #fa8072;
+}
+.doa-list-detail {
+  padding-top: 50px;
 }
 .fas {
   font-size: 36px;
@@ -178,8 +179,19 @@ h2 {
   color: #002366;
 }
 .card-detail {
+  position: relative;
+  margin-top: 64px;
+  border-radius: 32px;
   background-color: #99ddcc;
   width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+.card-detail img {
+  border-radius: 32px;
+  max-width: 60%;
+  max-height: 60%;
+  margin: 32px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
 }
 .card-title {
   font-weight: bold;
