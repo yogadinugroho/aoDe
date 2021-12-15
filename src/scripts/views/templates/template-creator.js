@@ -18,15 +18,15 @@ const createDetailDoaItemTemplate = (doa) => `
     <img class="lazyload" data-src="${doa.gambar}" class="card-img-top-center" alt="${doa.nama}">
         <div class="card-body">
             <h3 tabindex="0" class="card-title">Lafal :</h3>
-            <p class="card-text" id="txt-lafal" align="justify">${doa.ayat}</p>
+            <p class="card-text" id="txt-lafal">${doa.ayat}</p>
         </div>
         <div class="card-body">
             <h3 tabindex="0" class="card-title">Latin :</h3>
-            <p class="card-text" align="justify">${doa.latin}</p>
+            <p class="card-text">${doa.latin}</p>
         </div>
         <div class="card-body">
             <h3 tabindex="0" class="card-title">Artinya :</h3>
-            <p class="card-text" align="justify">${doa.artinya}</p>
+            <p class="card-text">${doa.artinya}</p>
         </div>
         <div class="container-button">
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">

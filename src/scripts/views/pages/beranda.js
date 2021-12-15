@@ -16,7 +16,7 @@ const Beranda = {
         <div class="top-banner"><div class="hero"></div></div>
         <h2 tabindex="0" id="doa">Doa-Doa</h2>
         <form id='searchForm' class="d-flex search-bar">
-          <input id='inputDoa' type="search" placeholder="Masukan Doa" aria-label="">
+          <input id='inputDoa' type="search" placeholder="Masukan Doa Yang Ingin Dicari" aria-label="">
           <button id='buttonSearch' class="btn btn-outline-success" type="button">Cari</button>
         </form>
         <div class="doa-list"></div>
