@@ -232,10 +232,13 @@ button {
 .btn-sudah-actived {
   color: #fa8072;
 }
-
 .card .container-button .d-grid button {
   margin: 8px;
   min-width: 44px;
+}
+.modal-header h5,
+.modal-body p {
+  color: black;
 }
 footer {
   margin-top: 50px;
