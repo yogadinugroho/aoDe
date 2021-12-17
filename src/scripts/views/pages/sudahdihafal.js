@@ -13,7 +13,7 @@ const SudahdiHafal = {
     return `
         <h2 tabindex="0" id="title-page">Sudah dihafal</h2>
         <form id='searchForm' class="d-flex search-bar">
-          <input id='inputDoa' type="search" placeholder="Masukan Doa" aria-label="">
+          <input id='inputDoa' type="search" autocomplete="off" placeholder="masukkan nama doa" aria-label="">
           <button id='buttonSearch' class="btn btn-outline-success" type="button">Cari</button>
         </form>
         <div class="doa-list"></div>

@@ -6,6 +6,15 @@
   .card-body p {
     font-size: 18px;
   }
+  .doa-item .title-item a {
+    font-size: 24px;
+  }
+  .navbar-toggler {
+    margin-right: 16px;
+  }
+  .navbar-brand {
+    margin-left: 16px;
+  }
 }
 
 @media screen and (min-width: 670px) {
@@ -15,16 +24,13 @@
   .doa-item .title-item {
     top: 65%;
   }
-  .doa-item:hover .content-item {
-    top: -25%;
-  }
   .doa-item .title-item a {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 1005px) {
   .doa-item .title-item a {
-    font-size: 27px;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 1240px) {
@@ -34,11 +40,8 @@
   .doa-item .title-item {
     top: 60%;
   }
-  .doa-item:hover .content-item {
-    top: -20%;
-  }
   .doa-item .title-item a {
-    font-size: 29px;
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 991px) {

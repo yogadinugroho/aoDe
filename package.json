@@ -6,7 +6,6 @@
   "scripts": {
     "start-dev": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "build-image": "node sharp.js",
     "start": "http-server ./dist"
   },
   "keywords": [],
@@ -25,7 +24,6 @@
     "html-webpack-plugin": "^4.5.2",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-webpack-plugin": "^2.4.2",
-    "sharp": "^0.29.3",
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-bundle-analyzer": "^4.5.0",

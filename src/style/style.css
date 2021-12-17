@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
 *,
 *:after,
 *:before {
@@ -47,6 +49,9 @@ body {
 .navigation-wrap i {
   font-size: 27px;
 }
+.navbar-brand, .card-text, .title__doa {
+  font-family: 'Poppins', sans-serif;
+}
 .navbar h1 a {
   font-size: 36px;
 }
@@ -65,6 +70,10 @@ body {
   outline: unset;
   border: unset;
   box-shadow: none;
+}
+.nav-item a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
 }
 .nav-item a:after{
     background: none repeat scroll 0 0 transparent;
@@ -102,6 +111,7 @@ h2 {
 }
 .doa-list-detail {
   padding-top: 50px;
+  font-family: 'Nunito', sans-serif;
 }
 .fas {
   font-size: 36px;
@@ -111,6 +121,8 @@ h2 {
   padding-top: 20px;
 }
 #inputDoa {
+  font-size: 18px;
+  word-spacing: 4px;
   text-align: center;
   width: 50%;
   height: 50px;
@@ -145,6 +157,7 @@ h2 {
   grid-template-columns: 1fr;
   gap: 10px;
 }
+
 .doa-item {
   position: relative;
   overflow: hidden;
@@ -169,7 +182,7 @@ h2 {
 }
 .doa-item .content-item {
   overflow: auto;
-  top: -50%;
+  top: -20%;
   left: 10%;
   border-radius: 20px;
   height: 40%;
@@ -181,13 +194,13 @@ h2 {
 }
 .doa-item:hover .content-item {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-  top: -20%;
 }
 .doa-item .title-item {
   padding-left: 5px;
   padding-right: 5px;
   position: relative;
   top: 60%;
+  font-size: 10px;
 }
 .doa-item .title-item a {
   color: #002366;
@@ -253,7 +266,7 @@ footer {
   max-width: 500px;
   line-height: 28px;
   font-size: 14px;
-  margin: 10px auto;
+  margin: 2px auto;
 }
 .socials {
   list-style: none;
@@ -263,7 +276,7 @@ footer {
   margin: 1rem 0 3rem 0;
 }
 .socials li {
-  margin: 0 10px;
+  margin: 0 2px;
 }
 .socials a {
   color: #fa8072;

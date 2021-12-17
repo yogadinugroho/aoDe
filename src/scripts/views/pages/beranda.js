@@ -14,9 +14,9 @@ const Beranda = {
     });
     return `
         <div class="top-banner"><div class="hero"><img width="100%" class="img-fluid" src="/images/aodeHero.jpg" alt="hero image"></div></div>
-        <h2 tabindex="0" id="doa">Doa-Doa</h2>
+        <h2 tabindex="0" class="title__doa" id="doa">Doa-Doa</h2>
         <form id='searchForm' class="d-flex search-bar">
-          <input id='inputDoa' type="search" placeholder="Masukan Doa Yang Ingin Dicari" aria-label="">
+          <input id='inputDoa' autocomplete="off" type="search" placeholder="masukan nama doa" aria-label="">
           <button id='buttonSearch' class="btn btn-outline-success" type="button">Cari</button>
         </form>
         <div class="doa-list"></div>

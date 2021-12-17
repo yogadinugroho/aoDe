@@ -7,7 +7,7 @@ const createDoaItemTemplate = (doa) => `
         </div>
         <div class="content-item" id="content-item">
             <div class="title-item">
-                <h3><a id="title-doa" href="${`/#/show/${doa.id}`}">${doa.nama}</a></h3>
+                <p class="title__doa"><a id="title-doa" href="${`/#/show/${doa.id}`}">${doa.nama}</a></p>
             </div>
         </div>
     </div>
