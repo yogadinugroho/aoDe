@@ -13,7 +13,7 @@ const Beranda = {
       document.getElementById('title-doa').focus();
     });
     return `
-        <div class="top-banner"><div class="hero"></div></div>
+        <div class="top-banner"><div class="hero"><img width="100%" class="img-fluid" src="/images/aodeHero.jpg" alt="hero image"></div></div>
         <h2 tabindex="0" id="doa">Doa-Doa</h2>
         <form id='searchForm' class="d-flex search-bar">
           <input id='inputDoa' type="search" placeholder="Masukan Doa Yang Ingin Dicari" aria-label="">
