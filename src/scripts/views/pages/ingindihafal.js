@@ -51,17 +51,6 @@ const IngindiHafal = {
         alert(error);
       }
     });
-    const titleDoa = document.querySelectorAll('#title-doa');
-    titleDoa.forEach((title) => {
-      title.addEventListener('focus', (event) => {
-        event.target.parentElement.parentElement.parentElement.style.top = '-20%';
-      });
-    });
-    titleDoa.forEach((title) => {
-      title.addEventListener('blur', (event) => {
-        event.target.parentElement.parentElement.parentElement.style.top = '-50%';
-      });
-    });
   },
 };
 export default IngindiHafal;
