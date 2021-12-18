@@ -14,7 +14,7 @@ const createDoaItemTemplate = (doa) => `
 `;
 const createDetailDoaItemTemplate = (doa) => `
     <div class="card mx-auto card-detail">
-    <h2 class="doa-name" tabindex="0" align="center">${doa.nama.toUpperCase()}</h2>
+    <h2 class="doa-name" tabindex="0" align="center">${doa.nama}</h2>
     <img class="lazyload" data-src="${doa.gambar}" class="card-img-top-center" alt="${doa.nama}">
         <div class="card-body">
             <h3 tabindex="0" class="card-title">Lafal :</h3>
