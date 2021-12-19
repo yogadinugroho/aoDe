@@ -5,10 +5,15 @@ import { createDoaItemTemplate } from '../templates/template-creator';
 
 const SudahdiHafal = {
   async render() {
+    const skipLink = document.querySelector('.skip-link');
+    skipLink.addEventListener('click', (event) => {
+      event.preventDefault();
+      document.getElementById('title-doa').focus();
+    });
     return `
         <h2 tabindex="0" id="title-page">Sudah dihafal</h2>
         <form id='searchForm' class="d-flex search-bar">
-          <input id='inputDoa' type="search" placeholder="Masukan Doa" aria-label="">
+          <input id='inputDoa' type="search" autocomplete="off" placeholder="masukkan nama doa" aria-label="">
           <button id='buttonSearch' class="btn btn-outline-success" type="button">Cari</button>
         </form>
         <div class="doa-list"></div>
@@ -35,17 +40,6 @@ const SudahdiHafal = {
       doaContainer.innerHTML = '';
       (await filteredDoa).forEach((doa) => {
         doaContainer.innerHTML += createDoaItemTemplate(doa);
-      });
-    });
-    const titleDoa = document.querySelectorAll('#title-doa');
-    titleDoa.forEach((title) => {
-      title.addEventListener('focus', (event) => {
-        event.target.parentElement.parentElement.parentElement.style.top = '-20%';
-      });
-    });
-    titleDoa.forEach((title) => {
-      title.addEventListener('blur', (event) => {
-        event.target.parentElement.parentElement.parentElement.style.top = '-50%';
       });
     });
   },

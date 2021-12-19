@@ -14,8 +14,8 @@ const {
 
 const dbPromise = openDB(DATABASE_NAME, DATABASE_VERSION, {
   upgrade(database) {
-    database.createObjectStore(OBJECT_STORE_NAME_1, { keyPath: 'id_doa' });
-    database.createObjectStore(OBJECT_STORE_NAME_2, { keyPath: 'id_doa' });
+    database.createObjectStore(OBJECT_STORE_NAME_1, { keyPath: 'id' });
+    database.createObjectStore(OBJECT_STORE_NAME_2, { keyPath: 'id' });
   },
 });
 
@@ -41,7 +41,7 @@ const ingindihafalIdb = {
     return (await dbPromise).getAll(OBJECT_STORE_NAME_1);
   },
   async putIngindihafal(doa) {
-    if (!doa.hasOwnProperty('id_doa')) {
+    if (!doa.hasOwnProperty('id')) {
       return;
     }
     return (await dbPromise).put(OBJECT_STORE_NAME_1, doa);
@@ -72,7 +72,7 @@ const sudahdihafalIdb = {
     return (await dbPromise).getAll(OBJECT_STORE_NAME_2);
   },
   async putSudahdihafal(doa) {
-    if (!doa.hasOwnProperty('id_doa')) {
+    if (!doa.hasOwnProperty('id')) {
       return;
     }
     return (await dbPromise).put(OBJECT_STORE_NAME_2, doa);
