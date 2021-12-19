@@ -111,6 +111,7 @@ h2 {
 }
 #doa {
   color: #fa8072;
+  font-size: 36px;
 }
 .doa-list-detail {
   padding-top: 50px;
@@ -120,7 +121,7 @@ h2 {
   font-size: 36px;
 }
 main {
-  padding-bottom: 200px;
+  padding-bottom: 50px;
 }
 #searchForm {
   justify-content: center;
