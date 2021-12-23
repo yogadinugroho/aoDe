@@ -17,6 +17,7 @@
 3. HTML
 4. CSS
 5. JavaScript
+6. Shutterstock for Image Illustration
 
 ## Cara Penggunaan :
 
@@ -51,5 +52,6 @@ https://user-images.githubusercontent.com/78912216/147202347-c4556bd7-e4a8-40cd-
 
 
 ## Author
-> Yoga Adi Nugroho
+> Yoga Adi Nugroho'
+
 > Muhammad Rifqi Arrahim Natadikarta
